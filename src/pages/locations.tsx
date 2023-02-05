@@ -4,11 +4,12 @@ import { LocationCardModel } from "@/models/location-card-model";
 import AppContainer from "@/components/app-container/app-container";
 import Head from "next/head";
 import { Syne } from "@next/font/google";
+import data from "../data/locations.json";
 
 const syne = Syne({ subsets: ["latin"] });
 
 export default function Locations(props: any) {
-    let locations: LocationCardModel[] = JSON.parse(props.locations || []);
+    let locations: LocationCardModel[] = data;
 
     return (
         <AppContainer>
@@ -34,17 +35,17 @@ export default function Locations(props: any) {
 // This function gets called at build time on server-side.
 // It won't be called on client-side, so you can even do
 // direct database queries.
-export async function getStaticProps() {
-    // Call an external API endpoint to get locations.
-    // You can use any data fetching library
-    const res = await fetch(BASE_URL + "/api/locations");
-    const locations = await res.json();
+// export async function getStaticProps() {
+//     // Call an external API endpoint to get locations.
+//     // You can use any data fetching library
+//     const res = await fetch(BASE_URL + "/api/locations");
+//     const locations = await res.json();
 
-    // By returning { props: { locations } }
-    // will receive `locations` as a prop at build time
-    return {
-        props: {
-            locations,
-        },
-    };
-}
+//     // By returning { props: { locations } }
+//     // will receive `locations` as a prop at build time
+//     return {
+//         props: {
+//             locations,
+//         },
+//     };
+// }
