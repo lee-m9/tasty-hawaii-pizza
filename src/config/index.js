@@ -1,3 +1,3 @@
 const dev = process.env.NODE_ENV !== "production";
 
-export const BASE_URL = dev ? "http://localhost:3000" : "https://tasty-hawaii-pizza.vercel.app";
+export const BASE_URL = dev ? "http://localhost:3000" : "https://tastyhawaiipizza.vercel.app";
