@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Fondamento } from "@next/font/google";
 
 const fondamento = Fondamento({ weight: "400", subsets: ["latin"] });

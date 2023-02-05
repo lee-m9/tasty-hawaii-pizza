@@ -31,9 +31,9 @@ export default function AppContainer(props: any) {
                     </Link>
                     <div className="hidden md:flex justify-end">
                         <nav className="flex items-center justify-end space-x-16 text-white text-lg">
-                            <Link href="/locations">Locations</Link>
                             <Link href="/about">About</Link>
                             <Link href="/contact">Contact</Link>
+                            <Link href="/locations">Locations</Link>
                         </nav>
                     </div>
                     <div className="md:hidden">
@@ -55,9 +55,9 @@ export default function AppContainer(props: any) {
                         hamburgerOpen ? "flex" : "hidden"
                     }`}
                 >
-                    <Link href="/locations">Locations</Link>
                     <Link href="/about">About</Link>
                     <Link href="/contact">Contact</Link>
+                    <Link href="/locations">Locations</Link>
                 </div>
                 <main
                     className="flex flex-col justify-between items-center h-full w-full max-w-screen-lg mx-auto my-0"

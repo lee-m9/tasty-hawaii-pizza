@@ -5,7 +5,7 @@ import { TbPaperBag } from "react-icons/tb";
 
 export default function LocationCard(location: LocationCardModel) {
     return (
-        <div className="relative flex leading-none rounded-xl max-w-[500px] min-w-[405px]">
+        <div className="relative flex leading-none rounded-xl max-w-[500px] bg-white">
             <div className="relative bg-gradient-to-b rounded-l-xl from-gradientPrimary to-gradientSecondary inline-block w-2 h-full"></div>
             <div className="flex w-full rounded-xl h-full">
                 <div className="self-start flex-auto flex flex-wrap items-baseline pt-4 content-between h-full">
@@ -29,6 +29,8 @@ export default function LocationCard(location: LocationCardModel) {
                                 <a
                                     href={location.directions}
                                     className="inline-flex text-sm font-medium ml-2 py-1 px-2  text-gray-500 hover:bg-gray-100 hover:rounded-full"
+                                    target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <span className="inline-flex mr-1 items-center text-sky-500">
                                         <FaDirections />
@@ -39,8 +41,8 @@ export default function LocationCard(location: LocationCardModel) {
                         </div>
                     </div>
                     <div className="w-full flex bg-slate-50 rounded-br-lg shadow flex-col">
-                        <div className="flex mt-3 mb-7 justify-around">
-                            <div className="">
+                        <div className="flex flex-col sm:flex-row mt-3 mb-7 justify-around px-5 sm:p-0">
+                            <div className="pb-8 sm:pb-0">
                                 <div className="text-gray-700">Delivery Hours</div>
                                 <div className="text-gray-600 text-sm mt-1">{location.deliveryHours}</div>
                                 <div className="mt-5">
@@ -56,7 +58,7 @@ export default function LocationCard(location: LocationCardModel) {
                                     </a>
                                 </div>
                             </div>
-                            <div className="border-r border-slate-100"></div>
+                            <div className="border-r hidden sm:block border-slate-100"></div>
                             <div className="">
                                 <div className="text-gray-700">Carryout Hours</div>
                                 <div className="text-gray-600 text-sm mt-1">{location.carryoutHours}</div>
