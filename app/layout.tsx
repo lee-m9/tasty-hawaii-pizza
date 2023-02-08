@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Turn as Hamburger } from "hamburger-react";
 import { Inter } from "@next/font/google";
 import NavLink from "./nav-link";
 

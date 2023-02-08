@@ -1,9 +1,10 @@
 import { LocationCardModel } from "@/model/location-model";
 import { use } from "react";
 import LocationCard from "./(location-card)/location-card";
+import { BASE_URL } from "../../config";
 
 async function getLocations() {
-    let res = await fetch("http://localhost:3000/api/locations");
+    let res = await fetch(BASE_URL + "/api/locations");
     return res.json();
 }
 
@@ -14,9 +15,9 @@ export default function Locations() {
     return (
         <div>
             Location
-            {/* <div className="grid grid-cols-1 gap-6 mt-12 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 mt-12 md:grid-cols-2 lg:grid-cols-3">
                 {locations && locations.map((location) => <LocationCard {...location} key={location.id} />)}
-            </div> */}
+            </div>
         </div>
     );
 }
