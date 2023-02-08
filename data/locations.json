@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "storeLocation": "2875a Paa St, Honololu HI",
+    "deliveryHours": "09:30 a.m. to 11:00 p.m.",
+    "carryoutHours": "09:30 a.m. to 09:55 p.m.",
+    "directions": "https://maps.google.com/maps?cid=16200997915791026500",
+    "phone": "(808)831-5151",
+    "orderDelivery": "https://www.papajohns.com/order/stores-near-me?searchType=DELIVERY&amp;_ga=2.204596115.2083184450.1672517115-926715912.1671586317&amp;_gac=1.170680980.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE",
+    "orderCarryout": "https://www.papajohns.com/order/viewStoreMenu/CARRYOUT/BUSINESS/1748?_ga=2.144837559.2083184450.1672517115-926715912.1671586317&amp;_gac=1.52768540.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE"
+  },
+  {
+    "id": 2,
+    "storeLocation": "1646 Kapiolani Blvd, Honololu HI",
+    "deliveryHours": "09:30 a.m. to 11:00 p.m.",
+    "carryoutHours": "09:30 a.m. to 09:55 p.m.",
+    "directions": "https://maps.google.com/maps?cid=16230582411612314436",
+    "phone": "(808)592-7272",
+    "orderDelivery": "https://www.papajohns.com/order/stores-near-me?searchType=DELIVERY&_ga=2.251846794.2083184450.1672517115-926715912.1671586317&_gac=1.3417732.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE",
+    "orderCarryout": "https://www.papajohns.com/order/viewStoreMenu/CARRYOUT/BUSINESS/1751?_ga=2.242279425.2083184450.1672517115-926715912.1671586317&amp;_gac=1.254011836.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE"
+  },
+  {
+    "id": 3,
+    "storeLocation": "611 Kapahulu Ave, Honololu HI",
+    "deliveryHours": "09:30 a.m. to 11:00 p.m.",
+    "carryoutHours": "09:30 a.m. to 09:55 p.m.",
+    "directions": "https://maps.google.com/maps?cid=2930692351602382178",
+    "phone": "(808)733-7272",
+    "orderDelivery": "https://www.papajohns.com/order/stores-near-me?searchType=DELIVERY&_ga=2.227327901.1018287563.1672787693-926715912.1671586317&_gac=1.45941648.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE",
+    "orderCarryout": "https://www.papajohns.com/order/viewStoreMenu/CARRYOUT/BUSINESS/1752?_ga=2.227327901.1018287563.1672787693-926715912.1671586317&_gac=1.45941648.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE"
+  },
+  {
+    "id": 4,
+    "storeLocation": "1365 Nuuanu Ave, Honololu HI",
+    "deliveryHours": "09:30 a.m. to 11:00 p.m.",
+    "carryoutHours": "09:30 a.m. to 09:55 p.m.",
+    "directions": "https://maps.google.com/maps?cid=9446618444395061107",
+    "phone": "(808)733-7272",
+    "orderDelivery": "https://www.papajohns.com/order/stores-near-me?searchType=DELIVERY&_ga=2.164606527.1018287563.1672787693-926715912.1671586317&_gac=1.213117472.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE",
+    "orderCarryout": "https://www.papajohns.com/order/viewStoreMenu/CARRYOUT/BUSINESS/1759?_ga=2.164606527.1018287563.1672787693-926715912.1671586317&_gac=1.213117472.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE"
+  },
+  {
+    "id": 5,
+    "storeLocation": "4380a Lawehana St, Honololu HI",
+    "deliveryHours": "09:30 a.m. to 11:00 p.m.",
+    "carryoutHours": "09:30 a.m. to 09:55 p.m.",
+    "directions": "https://maps.google.com/maps?cid=11458695182799855629",
+    "phone": "(808)421-7272",
+    "orderDelivery": "https://www.papajohns.com/order/stores-near-me?searchType=DELIVERY&_ga=2.160290365.1018287563.1672787693-926715912.1671586317&_gac=1.175949078.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE",
+    "orderCarryout": "https://www.papajohns.com/order/viewStoreMenu/CARRYOUT/BUSINESS/1754?_ga=2.160290365.1018287563.1672787693-926715912.1671586317&_gac=1.175949078.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE"
+  },
+  {
+    "id": 6,
+    "storeLocation": "4725 Bougainville Drive Bldg 631 Navy Exchange, Honololu HI",
+    "deliveryHours": "09:30 a.m. to 11:00 p.m.",
+    "carryoutHours": "09:30 a.m. to 09:55 p.m.",
+    "directions": "https://maps.google.com/maps?cid=4310238349461597462",
+    "phone": "(808)422-7272",
+    "orderDelivery": "https://www.papajohns.com/order/stores-near-me?searchType=DELIVERY&_ga=2.129441548.1018287563.1672787693-926715912.1671586317&_gac=1.238830132.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE",
+    "orderCarryout": "https://www.papajohns.com/order/viewStoreMenu/CARRYOUT/BUSINESS/5212?_ga=2.129441548.1018287563.1672787693-926715912.1671586317&_gac=1.238830132.1671672821.EAIaIQobChMItJP1kYqM_AIVPiutBh2c7gfGEAAYASAAEgIm4PD_BwE"
+  }
+]
