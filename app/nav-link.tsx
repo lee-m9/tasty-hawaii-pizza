@@ -11,7 +11,7 @@ export default function NavLink({
 }: {
     href: string;
     children: React.ReactNode;
-    onClick?: Function;
+    onClick?: any;
     className?: string;
 }): JSX.Element {
     let segment = useSelectedLayoutSegment();
