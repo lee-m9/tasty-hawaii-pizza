@@ -14,8 +14,10 @@ export default function Locations() {
 
     return (
         <div>
-            Location
-            <div className="grid grid-cols-1 gap-6 mt-12 md:grid-cols-2 lg:grid-cols-3">
+            <div className="text-5xl text-center sm:text-left font-extrabold text-white/95 tracking-wide">
+                <span>Location</span>
+            </div>
+            <div className="grid gap-6 lg:gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-12">
                 {locations && locations.map((location) => <LocationCard {...location} key={location.id} />)}
             </div>
         </div>

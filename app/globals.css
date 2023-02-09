@@ -10,6 +10,11 @@
   }
 }
 
+body {
+  background-image: url("/pizza-bg.svg");
+  overflow-x: hidden;
+}
+
 body::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 7px;
@@ -21,11 +26,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main {
-  min-height: calc(100vh - 213px);
+  min-height: calc(100vh - 225px);
 }
 
 .hambuger-menu {
-  height: calc(100vh - 70px);
+  height: calc(100% - 88px);
 }
 
 .we-are {
@@ -50,7 +55,8 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   display: block;
   -webkit-user-select: none;
-  user-select: none
+  user-select: none;
+  padding: 0.05rem;
 }
 
 .animated-gradient-text_background-1:before {
