@@ -16,6 +16,8 @@ export default function Deals({ searchParams }: { searchParams: SearchParams }) 
     let [showCoupons, setShowCoupons] = useState(false);
     let [enableNext, setEnableNext] = useState(false);
     let [phone, setPhone] = useState("");
+    
+    console.log("Deals search params - ", searchParams);
 
     function closeModal() {
         setIsOpen(false);
