@@ -2,22 +2,21 @@
 
 import { useState, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
+import { useSearchParams } from "next/navigation";
 import OTP from "./otp";
 import LoadingSvg from "../loadingSvg";
 
-interface SearchParams {
-    coupon: string;
-}
-
-export default function Deals({ searchParams }: { searchParams: SearchParams }) {
-    let [isOpen, setIsOpen] = useState(searchParams.coupon == "true");
+export default function Deals() {
+    const searchParams = useSearchParams();
+    const coupon = searchParams.get("coupon");
+    let [isOpen, setIsOpen] = useState(coupon === "true");
     let [isProcessingOtp, setIsProcessingOtp] = useState(false);
     let [showOTPFields, setShowOTPFields] = useState(false);
     let [showCoupons, setShowCoupons] = useState(false);
     let [enableNext, setEnableNext] = useState(false);
     let [phone, setPhone] = useState("");
-    
-    console.log("Deals search params - ", searchParams);
+
+    console.log("Deals search params - ", coupon);
 
     function closeModal() {
         setIsOpen(false);

@@ -3,12 +3,10 @@ import Deals from "./(deals)/deals";
 
 const fondamento = Fondamento({ weight: "400", subsets: ["latin"] });
 
-export default function Home(props: any) {
-    console.log(props);
-
+export default function Home() {
     return (
         <>
-            <Deals searchParams={props.searchParams} />
+            <Deals />
             <div className="flex w-screen max-w-screen-lg mx-auto my-0 justify-center pt-4">
                 <div className="text-8xl !font-extrabold" style={fondamento.style}>
                     <div className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-teal-900 tracking-widest">
