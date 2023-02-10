@@ -43,7 +43,6 @@ export default function OTP({ enableNext }: { enableNext: Function }) {
     const [otpState, dispatch] = useReducer(reducer, initialState);
 
     const handleChange = (otp: any, event: any) => {
-        console.log("handle change: ", otp, event.target.value);
         dispatch({
             type: otp,
             otpValue: event.target.value,
@@ -51,14 +50,12 @@ export default function OTP({ enableNext }: { enableNext: Function }) {
     };
 
     const checkCurrentOTPValues = () => {
-        console.log(otpState);
         let currentValues = Object.values(otpState).join("");
         currentValues = currentValues.replaceAll(" ", "");
         enableNext(currentValues.length === 6);
     };
 
     const inputfocus = (element: any) => {
-        console.log("inputfocus", element.key, element.keyCode);
         switch (element.key) {
             case "Delete":
             case "Backspace":
