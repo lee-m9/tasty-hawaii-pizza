@@ -6,7 +6,7 @@ export default function ComingSoon() {
     return (
         <div className="flex w-screen max-w-screen-lg mx-auto my-0 justify-center">
             <div
-                className="flex flex-col text-7xl pr-11 pt-24 sm:pt-28 md:pt-20 lg:pt-0 md:text-8xl lg:text-9xl font-extrabold text-center bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
+                className="flex flex-col text-6xl sm:text-7xl p-4 mr-11 pt-24 sm:pt-28 md:pt-20 lg:pt-0 md:text-8xl lg:text-9xl font-extrabold text-center bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
                 style={inter.style}
             >
                 <span className="we-are animated-gradient-text_background animated-gradient-text_background-1">

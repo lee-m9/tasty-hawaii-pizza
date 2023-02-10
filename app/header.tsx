@@ -24,7 +24,7 @@ export default function Header() {
                     <div className="flex-grow flex justify-start">
                         <Link href="/">
                             <Image
-                                className="invert"
+                                className="invert-[70%]"
                                 src="/papajohns_small_logo.png"
                                 alt="Papajohns Logo"
                                 width={100}
@@ -54,31 +54,19 @@ export default function Header() {
                 </div>
             </header>
             {hamburgerOpen && (
-                <div className="hambuger-menu flex flex-col absolute left-0 text-lg items-center z-[9999] bg-zinc-900/50 backdrop-blur-[1px] w-screen sm:hidden">
-                    <NavLink
-                        href="/"
-                        className="w-full !rounded-none !text-base !p-5 hover:bg-gray-800"
-                        onClick={onNavLinkClick}
-                    >
+                <div className="hambuger-menu flex flex-col absolute left-0 text-lg items-center z-[9999] bg-zinc-900/[0.99] backdrop-blur-[1px] w-screen sm:hidden">
+                    <NavLink href="/" className="w-full !rounded-none !text-base !p-5" onClick={onNavLinkClick}>
                         Home
                     </NavLink>
-                    <NavLink
-                        href="/about"
-                        className="w-full !rounded-none !text-base !p-5 hover:bg-gray-800"
-                        onClick={onNavLinkClick}
-                    >
+                    <NavLink href="/about" className="w-full !rounded-none !text-base !p-5" onClick={onNavLinkClick}>
                         About
                     </NavLink>
-                    <NavLink
-                        href="/contact"
-                        className="w-full !rounded-none !text-base !p-5 hover:bg-gray-800"
-                        onClick={onNavLinkClick}
-                    >
+                    <NavLink href="/contact" className="w-full !rounded-none !text-base !p-5" onClick={onNavLinkClick}>
                         Contact
                     </NavLink>
                     <NavLink
                         href="/locations"
-                        className="w-full !rounded-none !text-base !p-5 hover:bg-gray-800"
+                        className="w-full !rounded-none !text-base !p-5"
                         onClick={onNavLinkClick}
                     >
                         Locations

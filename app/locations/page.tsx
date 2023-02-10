@@ -14,8 +14,10 @@ export default function Locations() {
 
     return (
         <div>
-            <div className="text-5xl text-center sm:text-left font-extrabold text-white/95 tracking-wide">
-                <span>Location</span>
+            <div className="text-5xl text-center sm:text-left font-extrabold tracking-wide">
+                <span className="before:block before:absolute before:-inset-1 before:skew-y-2 before:top-8 before:bottom-0 before:bg-gradient-to-r before:from-emerald-400 before:to-teal-900 relative w-fit">
+                    <span className="relative text-white">Locations</span>
+                </span>
             </div>
             <div className="grid gap-6 lg:gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-12">
                 {locations && locations.map((location) => <LocationCard {...location} key={location.id} />)}

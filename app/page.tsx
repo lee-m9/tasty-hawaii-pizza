@@ -5,13 +5,13 @@ const fondamento = Fondamento({ weight: "400", subsets: ["latin"] });
 export default function Home() {
     return (
         <div className="flex w-screen max-w-screen-lg mx-auto my-0 justify-center">
-            <div className="text-8xl font-extrabold" style={fondamento.style}>
-                <div className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary tracking-widest">
-                    <div className="flex">Tasty</div>
-                    <div className="before:block before:absolute before:-inset-1 my-5 before:-skew-y-3 before:bg-gradient-to-r before:from-primary before:to-secondary relative flex scale-100 origin-center-left -rotate-[8deg]">
+            <div className="text-8xl !font-extrabold" style={fondamento.style}>
+                <div className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-teal-900 tracking-widest">
+                    <div className="flex justify-center">Tasty</div>
+                    <div className="before:block before:absolute before:-inset-0 before:bottom-3 before:top-9 -mt-2 -mb-4 before:bg-gradient-to-r before:from-emerald-400 before:to-teal-900 relative">
                         <span className="relative text-white">hawaii</span>
                     </div>
-                    <div className="flex">Pizza</div>
+                    <div className="flex justify-center">Pizza</div>
                 </div>
             </div>
         </div>

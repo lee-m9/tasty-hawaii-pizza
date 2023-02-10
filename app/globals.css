@@ -47,8 +47,8 @@ body::-webkit-scrollbar-thumb {
 
 .amazing {
   --content:'Amazing for you!';
-  --start-color:#FF4D4D;
-  --end-color:#F9CB28;
+  --start-color:#34d399;
+  --end-color:#134e4a;
 }
 
 .animated-gradient-text_background {
